@@ -1,0 +1,2 @@
+# Godot_Projrct_Training_2DGame_HexRun_20231102
+ Godot_練習專案_2D遊戲_HexRun_20231102
