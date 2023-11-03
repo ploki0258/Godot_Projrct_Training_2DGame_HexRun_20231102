@@ -12,7 +12,7 @@ extents = Vector2( 40, 50 )
 
 [node name="遊戲場景" type="Node2D"]
 
-[node name="Player" type="KinematicBody2D" parent="."]
+[node name="Player" type="KinematicBody2D" parent="." groups=["Player"]]
 scale = Vector2( 0.3, 0.3 )
 script = ExtResource( 1 )
 __meta__ = {

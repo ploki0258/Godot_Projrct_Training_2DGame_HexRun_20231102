@@ -11,8 +11,22 @@ config_version=4
 [application]
 
 config/name="Godot_Projrct_Training_2DGame_HexRun_20231102"
-run/main_scene="res://Scenes/遊戲場景.tscn"
+run/main_scene="res://Scenes/開始畫面.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+EndMenu="*res://Scenes/結束畫面.tscn"
+Score="*res://Scenes/Score.tscn"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
+
+[global]
+
+"語言"=false
 
 [gui]
 

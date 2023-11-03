@@ -20,3 +20,9 @@ func _physics_process(delta):
 	
 	if my_scale <= 0.1:
 		queue_free()
+
+
+func _on_ScoreBox_body_entered(body):
+	if body.is_in_group("Player"):
+		Score.score += 1
+		Score.update_score()
